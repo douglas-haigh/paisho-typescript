@@ -1,0 +1,16 @@
+.pai-sho-grid {
+    background-image: url("../images/paishoboard.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(19, 1fr); 
+    gap: 0; 
+    width: 684px;
+    height: 684px;
+}
+
+.grid-cell {    
+    justify-content: center; 
+    width: 36px; 
+    height: 36px; 
+}
